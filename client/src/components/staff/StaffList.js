@@ -44,7 +44,7 @@ function StaffList(props){
                         </tr>
                     </thead>
                     <tbody>
-                        {
+                        {/* {
                             props.staff.map((ele,i) => {
                                 return (
                                     <tr key={i}>
@@ -59,7 +59,7 @@ function StaffList(props){
                                     </tr>
                                 )
                             })
-                        }
+                        } */}
                     </tbody>
                 </Table>
                 <Link className='text-primary' to="/staffs/add">Add Staff</Link>

@@ -1,25 +1,25 @@
-const teacherInitialState=[]
-const teacherReducer =(state=teacherInitialState,action)=>{
+const staffInitialState=[]
+const staffReducer =(state=staffInitialState,action)=>{
     switch(action.type){
-        case 'SET_TEACHERS':{
+        case 'SET_STAFFS':{
             return [...action.payload]
         }
-        case "ADD_TEACHERS": {
+        case "ADD_STAFFS": {
             return [...state, action.payload]
         }
-        case 'EDIT_TEACHER': {
-            return state.map(teacher => {
-                if(teacher._id === action.payload._id){
-                    return Object.assign({}, teacher, action.payload)
+        case 'EDIT_STAFF': {
+            return state.map(staff => {
+                if(staff._id === action.payload._id){
+                    return Object.assign({}, staff, action.payload)
                 }
                 else{
-                    return Object.assign({}, teacher)
+                    return Object.assign({}, staff)
                 }
             })
         }
-        case 'REMOVE_TEACHER': {
-            return state.filter(teacher => {
-                return teacher._id !== action.payload._id
+        case 'REMOVE_STAFF': {
+            return state.filter(staff => {
+                return staff._id !== action.payload._id
             })
         }
         default:{
@@ -27,4 +27,4 @@ const teacherReducer =(state=teacherInitialState,action)=>{
         }
     }
 }
-export default teacherReducer
+export default staffReducer

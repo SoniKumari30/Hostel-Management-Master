@@ -47,7 +47,7 @@ function StudentList(props){
                         </tr>
                     </thead>
                     <tbody>
-                    {
+                    {/* {
                                props.student.map((ele,i) => {
                                 return (
                                     <tr key={i}>
@@ -62,7 +62,7 @@ function StudentList(props){
                                     </tr>
                                 )
                             })
-                        }
+                        } */}
                     </tbody>
                 </Table>
                 <Link className='text-primary' to="/users/students/add">Add Student</Link>

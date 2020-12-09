@@ -40,7 +40,7 @@ function RoomList(props){
                         </tr>
                     </thead>
                     <tbody>
-                        {
+                        {/* {
                             props.room.map((ele,i) => {
                                 return (
                                     <tr key={ele._id}>
@@ -52,7 +52,7 @@ function RoomList(props){
                                     </tr>
                                 )
                             })
-                        }
+                        } */}
                     </tbody>
                 </Table>
                 <Link className='text-primary' to="/rooms/add">Add Room</Link>
