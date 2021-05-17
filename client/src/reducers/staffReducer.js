@@ -2,7 +2,7 @@ const staffInitialState=[]
 const staffReducer =(state=staffInitialState,action)=>{
     switch(action.type){
         case 'SET_STAFFS':{
-            return [...action.payload]//
+            return [...action.payload]////s
         }
         case "ADD_STAFFS": {
             return [...state, action.payload]
