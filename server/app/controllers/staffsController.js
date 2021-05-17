@@ -1,5 +1,5 @@
 const Staff = require('../models/staff')
-const staffsCltr = { }
+const staffsCltr = { }//
 
 staffsCltr.list = (req, res) => {
     Staff.find()

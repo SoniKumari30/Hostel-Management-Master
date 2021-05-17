@@ -7,7 +7,7 @@ const roomSchema=new Schema({
     room:{
         type:String,
         required:true,
-        unique:true
+        unique:true//
     },
   //   building: {
   //     type: String,

@@ -2,7 +2,7 @@ const User = require('../models/user')
 const usersController = {}
 const bcryptjs = require('bcryptjs')
 const jwt = require('jsonwebtoken')
-
+//
 usersController.register = (req, res) => {
     const body = req.body 
     const user = new User(body)

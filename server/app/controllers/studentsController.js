@@ -1,7 +1,7 @@
 const Student = require('../models/student')
 const studentsCltr = { }
 
-studentsCltr.list = (req, res) => {
+studentsCltr.list = (req, res) => {//
     Student.find()
     .then((student) => {
         res.json(student)

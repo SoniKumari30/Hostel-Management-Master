@@ -1,5 +1,5 @@
 const Room = require('../models/room')
-const roomsCltr = { }
+const roomsCltr = { }//
 
 roomsCltr.list = (req, res) => {
     Room.find()
