@@ -8,7 +8,7 @@ const configureDB = () => {
     
     .then(() => {
         console.log('successfully connected to database')
-    })
+    })//
     .catch((err) =>{
         console.log(err)
     })

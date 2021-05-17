@@ -1,11 +1,11 @@
 const Staff = require('../models/staff')
-const staffsCltr = { }//
+const staffsCltr = { }
 
 staffsCltr.list = (req, res) => {
     Staff.find()
     .then((staff) => {
         res.json(staff)
-    })
+    })//
     .catch((err) => {
         res.json(err)
     })

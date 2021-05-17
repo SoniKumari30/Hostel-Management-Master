@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken')
 const authenticateUser = (req, res, next) => {
     
     const token = req.headers.authorization
-    if(token) {//
+    if(token) {
         let tokenData 
         try {
             tokenData = jwt.verify(token, 'soni@123')
@@ -13,7 +13,7 @@ const authenticateUser = (req, res, next) => {
             res.status('401').json({ error: e.message })
         }
         
-    } else {
+    } else {//
         res.status('401').json({ error: 'token not provided'})
     }
    
