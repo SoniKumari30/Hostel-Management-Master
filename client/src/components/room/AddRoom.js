@@ -4,7 +4,7 @@ import {connect} from 'react-redux'
 import RoomForm from './RoomForm'
 import { startAddRooms } from '../../actions/roomAction'
 
-function AddRoom(props){  //
+function AddRoom(props){  
 
     const handleEditSubmit = (room) => {    
         const redirect = () => props.history.push('/rooms')

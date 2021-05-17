@@ -6,7 +6,7 @@ const roomReducer =(state=roomInitialState,action)=>{
         }
         case "ADD_ROOMS": {
             return [...state, action.payload]
-        }//
+        }
         case 'EDIT_ROOM': {
             return state.map(room => {
                 if(room._id === action.payload._id){

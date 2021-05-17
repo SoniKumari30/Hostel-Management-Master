@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 
-import { startRemoveStaff } from '../../actions/staffAction'//
+import { startRemoveStaff } from '../../actions/staffAction'
 import moment from 'moment'
 import swal from 'sweetalert'
 import { Container, Table, Button } from 'react-bootstrap' 

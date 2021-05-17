@@ -6,7 +6,7 @@ staffsCltr.list = (req, res) => {
     .then((staff) => {
         res.json(staff)
     })
-    .catch((err) => {//
+    .catch((err) => {
         res.json(err)
     })
 }

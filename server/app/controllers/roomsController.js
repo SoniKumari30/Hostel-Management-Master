@@ -5,7 +5,7 @@ roomsCltr.list = (req, res) => {
     Room.find()
     .then((room) => {
         res.json(room)
-    })//
+    })
     .catch((err) => {
         res.json(err)
     })

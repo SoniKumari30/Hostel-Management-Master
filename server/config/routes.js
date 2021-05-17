@@ -31,4 +31,4 @@ router.put('/users/rooms/:id',authenticateUser,roomsController.update)
 router.delete('/users/rooms/:id',authenticateUser,roomsController.destroy)
 
 
-module.exports = router//
+module.exports = router

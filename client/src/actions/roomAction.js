@@ -1,7 +1,7 @@
 import axios from '../config/axios'
 import swal from 'sweetalert'
 export const AddRooms =(room)=>{
-    return {type:'ADD_ROOMS',payload:room}//
+    return {type:'ADD_ROOMS',payload:room}
 }
 export const startAddRooms =(formData,redirect)=>{
     return(dispatch)=>{

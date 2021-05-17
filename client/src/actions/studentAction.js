@@ -1,6 +1,6 @@
 import axios from '../config/axios'
 import swal from 'sweetalert'
-export const AddStudents =(student)=>{//
+export const AddStudents =(student)=>{
     return {type:'ADD_STUDENTS',payload:student}
 }
 export const startAddStudents =(formData,redirect)=>{
