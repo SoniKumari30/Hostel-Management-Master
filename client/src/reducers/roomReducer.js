@@ -1,6 +1,6 @@
 const roomInitialState=[]
 const roomReducer =(state=roomInitialState,action)=>{
-    switch(action.type){
+    switch(action.type){//
         case 'SET_ROOMS':{//
             return [...action.payload]
         }//
