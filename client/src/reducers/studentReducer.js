@@ -1,10 +1,10 @@
 const studentInitialState=[]
 const studentReducer =(state=studentInitialState,action)=>{
     switch(action.type){
-        case 'SET_STUDENTS':{
+        case 'SET_STUDENTS':{//
             return [...action.payload]
         }
-        case "ADD_STUDENTS": {//////
+        case "ADD_STUDENTS": {
             return [...state, action.payload]
         }
         case 'EDIT_STUDENT': {

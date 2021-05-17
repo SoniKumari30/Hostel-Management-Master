@@ -1,7 +1,7 @@
 const Room = require('../models/room')
 const roomsCltr = { }
 
-roomsCltr.list = (req, res) => {//
+roomsCltr.list = (req, res) => {
     Room.find()
     .then((room) => {
         res.json(room)

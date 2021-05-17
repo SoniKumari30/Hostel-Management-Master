@@ -5,7 +5,7 @@ const isEmail = require('validator/lib/isEmail')
 const Schema = mongoose.Schema
 
 const staffSchema=new Schema({
-    name:{//
+    name:{
         type:String,
         required:true,
         minlength:3

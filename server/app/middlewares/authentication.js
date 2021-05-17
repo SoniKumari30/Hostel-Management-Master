@@ -13,7 +13,7 @@ const authenticateUser = (req, res, next) => {
             res.status('401').json({ error: e.message })
         }
         
-    } else {//
+    } else {
         res.status('401').json({ error: 'token not provided'})
     }
    

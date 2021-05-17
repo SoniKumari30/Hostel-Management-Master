@@ -3,7 +3,7 @@ import thunk from 'redux-thunk'
 import userReducer from '../reducers/userReducer'
 
 
-const configureStore=()=>{//
+const configureStore=()=>{
     const store=createStore(combineReducers(
         {
             user:userReducer

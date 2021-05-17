@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 //create schema
-const Schema = mongoose.Schema//
+const Schema = mongoose.Schema
 
 const roomSchema=new Schema({
     room:{

@@ -9,7 +9,7 @@ const studentsController = require('../app/controllers/studentsController')
 router.post('/users/register', usersController.register)
 router.post('/users/login', usersController.login)
 
-//private Route//
+//private Route
 
 router.get('/users/accounts',authenticateUser, usersController.account)
 router.get('/users/students',authenticateUser,studentsController.list)

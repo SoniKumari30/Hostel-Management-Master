@@ -8,7 +8,7 @@ usersController.register = (req, res) => {
     const user = new User(body)
     user.save()
         .then((user) => {
-            res.json(user)//
+            res.json(user)
         })
         .catch((err) => {
             res.json(err)
