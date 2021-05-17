@@ -1,5 +1,5 @@
 import axios from '../config/axios'
-import swal from 'sweetalert'
+import swal from 'sweetalert'//
 export const AddStaffs =(staff)=>{
     return {type:'ADD_STAFFS',payload:staff}
 }

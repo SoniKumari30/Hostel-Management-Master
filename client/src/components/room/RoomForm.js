@@ -5,7 +5,7 @@ import {Container, Form} from 'react-bootstrap'
 class RoomForm extends React.Component{
 
     constructor(props){
-        super(props)
+        super(props)//
         this.state = {
             room: props.room ? props.room.room : '',
         }

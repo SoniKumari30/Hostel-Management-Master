@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import StudentForm from './StudentForm'
 
-import {startEditStudent} from '../../actions/studentAction'
+import {startEditStudent} from '../../actions/studentAction'//
 import { findStudent } from '../../selectors/studentSelector'
 
 function EditStudent(props){

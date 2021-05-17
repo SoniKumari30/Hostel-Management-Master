@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
-
+//
 import { startRemoveStudent } from '../../actions/studentAction'
 import moment from 'moment'
 import swal from 'sweetalert'

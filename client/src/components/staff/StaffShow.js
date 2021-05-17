@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { findStaff } from '../../selectors/staffSelector'
 import {Link} from 'react-router-dom'
 import { Container } from 'react-bootstrap'
-function StaffShow(props){
+function StaffShow(props){//
     console.log(props)
     return (
         <Container>

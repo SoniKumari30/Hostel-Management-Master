@@ -19,7 +19,7 @@ const studentSchema=new Schema({
     fathers_mobile:{
         type:String,
         required:true,
-        minlength:10,
+        minlength:10,//
         maxlength:10
     },
     mobile:{

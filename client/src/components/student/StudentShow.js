@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { findStudent } from '../../selectors/studentSelector'
+import { findStudent } from '../../selectors/studentSelector'//
 import {Link} from 'react-router-dom'
 import { Container } from 'react-bootstrap'
 function StudentShow(props){

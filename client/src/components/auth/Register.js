@@ -5,7 +5,7 @@ import {connect} from 'react-redux'
 import {startRegisterUser} from '../../actions/userAction'
 
 
-class Register extends React.Component {
+class Register extends React.Component {//
     
     constructor(props){
         super(props)

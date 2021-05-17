@@ -3,7 +3,7 @@ import {connect} from 'react-redux'
 import {Container, Form} from 'react-bootstrap'
 import axios from '../../config/axios'
 
-class StudentForm extends React.Component{
+class StudentForm extends React.Component{//
 
     constructor(props){
         super(props)

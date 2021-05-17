@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import StaffForm from './StaffForm'
 
-import {startEditStaff} from '../../actions/staffAction'
+import {startEditStaff} from '../../actions/staffActio//n'
 import { findStaff } from '../../selectors/staffSelector'
 
 function EditStaff(props){

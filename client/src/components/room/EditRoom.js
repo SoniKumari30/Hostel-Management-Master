@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import RoomForm from './RoomForm'
 
 import {startEditRoom} from '../../actions/roomAction'
-import { findRoom } from '../../selectors/roomSelector'
+import { findRoom } from '../../selectors/roomSelector'//
 
 function EditRoom(props){
 

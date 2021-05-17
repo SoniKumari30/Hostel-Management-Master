@@ -8,7 +8,7 @@ import swal from 'sweetalert'
 import { Container, Table, Button } from 'react-bootstrap' 
 
 function RoomList(props){
-
+//
     const handleRemove = (id) => {
         swal({
             title: "Are you sure you want to delete ?",

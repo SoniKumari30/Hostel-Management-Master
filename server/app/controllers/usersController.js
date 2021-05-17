@@ -11,7 +11,7 @@ usersController.register = (req, res) => {
             res.json(user)
         })
         .catch((err) => {
-            res.json(err)
+            res.json(err)//
         })
 }
 

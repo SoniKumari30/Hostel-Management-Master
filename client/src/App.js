@@ -1,7 +1,7 @@
 import React from 'react'
 import {BrowserRouter,Route,Switch,Link} from 'react-router-dom'
 import {connect} from 'react-redux'
-import Home from './components/static/Home'
+import Home from './components/static/Home'//
 import Login from './components/auth/Login'
 import Register from './components/auth/Register'
 import { startUserLogout } from './actions/userAction'

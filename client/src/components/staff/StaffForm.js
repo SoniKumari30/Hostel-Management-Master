@@ -6,7 +6,7 @@ import axios from '../../config/axios'
 class StaffForm extends React.Component{
 
     constructor(props){
-        super(props)
+        super(props)//
         this.state = {
             name: props.staff ? props.staff.name:'',
             gender:props.staff ? props.staff.gender:'',
